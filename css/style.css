@@ -236,6 +236,9 @@ section {
   display: flex;
   gap: 24px;
 }
+.description-title {
+  margin-bottom: 8px;
+}
 
 .description-item {
   width: calc((100% - 24px * 3) / 4);
@@ -281,6 +284,7 @@ section {
   justify-content: center;
   flex-direction: column;
   margin: 32px 16px;
+  padding: 32px 0 32px;
   gap: 8px;
 }
 
@@ -296,6 +300,8 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .workers-item {
   width: calc((100% - 24px * 3) / 4);
@@ -311,6 +317,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 /*  Portfolio styles */
@@ -335,6 +342,7 @@ section {
   border-right: 1px solid var(--cornflower);
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-title {

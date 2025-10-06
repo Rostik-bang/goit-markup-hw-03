@@ -237,7 +237,6 @@ section {
   gap: 24px;
 }
 .description-title {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
 
@@ -245,6 +244,8 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .description-item {
@@ -370,7 +371,6 @@ section {
 .portfolio-description {
   font-weight: 500;
   font-size: 20px;
-  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;

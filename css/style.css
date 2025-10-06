@@ -238,6 +238,13 @@ section {
 }
 .description-title {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .description-item {
@@ -283,9 +290,9 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 32px 16px;
+  /* margin: 32px 16px; */
   padding: 32px 0 32px;
-  gap: 8px;
+  /* gap: 8px; */
 }
 
 .workers-img {
@@ -332,7 +339,6 @@ section {
 }
 
 .portfolio-container {
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -365,7 +371,6 @@ section {
 .portfolio-description {
   font-weight: 500;
   font-size: 20px;
-  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;

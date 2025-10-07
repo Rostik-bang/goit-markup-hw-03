@@ -50,8 +50,8 @@ section {
   padding: 0 15px;
   margin: 0 auto;
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
 }
 
 /* Header styles */
@@ -371,6 +371,7 @@ section {
 .portfolio-description {
   font-weight: 500;
   font-size: 20px;
+  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;
